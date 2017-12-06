@@ -1,5 +1,5 @@
 /* the styles for the elements */
-* {
+/* {
 	margin: 0;
 	padding: 0;
 }
@@ -22,7 +22,7 @@ a:focus, a:hover {
 /* the styles for the header */
 
 
-.shadow {
+/*.shadow {
 	text-shadow: 2px 2px 2px #4bdb1f;
 }
 
@@ -30,7 +30,7 @@ a:focus, a:hover {
 
 /* the styles for the main nav menu */
 
-#nav_menu ul {
+/*#nav_menu ul {
 	list-style: none;
 	position: relative;
 	margin: 0px;
@@ -91,7 +91,7 @@ a:focus, a:hover {
 
 
 /* the styles for the main content */
-main {
+/*main {
 	clear: left;
 }
 
@@ -103,7 +103,7 @@ ul.circle {
 
 
 /* the styles for the section */
-section {
+/*section {
 	width: 1200px;
 	float: left;
 	padding: 0 20px 20px 20px;
@@ -112,7 +112,7 @@ section h1 {
 	font-size: 150%;
 	padding: .5em 0 .25em 0;
 	margin: 2;               /* If you remove this, the margins in normalize.css will be applied. */
-}
+/*}
 section h2 {
 	color: #2b1515;
 	font-size: 130%;
@@ -133,7 +133,7 @@ section li {
 }
 
 /* the styles for the article */
-article {
+/*article {
 	padding: .5em 0;
 	border-top: 2px solid #800000;
 	border-bottom: 2px solid #800000;
@@ -152,7 +152,7 @@ article img {
 }
 
 /* the styles for the aside */
-aside {
+/*aside {
 	width: 215px;
 	float: right;
 	padding: 0 0 20px 20px;
@@ -172,7 +172,7 @@ aside img {
 }
 
 /* the styles for the footer */
-footer {
+/*footer {
 	background-color: #931420;
 	clear: both;
 

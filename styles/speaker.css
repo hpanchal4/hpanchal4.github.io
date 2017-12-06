@@ -4,67 +4,25 @@
 	padding: 0;
 }
 html {
-	background-color: white;
+	background-color: #659DBD;
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 99%;
+    width: 100%;
     margin: 0 auto;
-    border: 3px solid #931420;
-    background-color: #659DBD;
+    /*border: 3px solid #931420;*/
+	background-color: #659DBD;
+	
+	
 }
 a:focus, a:hover {
 	font-style: italic;
 }
-/* the styles for the header */
-header {
-	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid #931420;
-		background-image: -moz-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
-	background-image: -webkit-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
-	background-image: -o-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
-	background-image: linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
-}
-header h2 {
-	font-size: 175%;
-	color: #800000;
-}
-header h3 {
-	font-size: 130%;
-	font-style: italic;
-}
-header img {
-	float: left;
-	padding: 0 30px;
-}
-.shadow {
-	text-shadow: 2px 2px 2px #800000;
-}
+
 
 /* the styles for the sidebar menu */
 
-/** { margin: 0;
-    padding: 0; }*/
-	
-#nav_list ul { 
-    list-style-type: none;
-    margin-left: 1.25em;
-    margin-bottom: 1.5em; }
-
-#nav_list ul li { 
-    width: 200px;
-    margin-bottom: .5em;
-    border-radius: 15px;
-	border: 2px solid black;
-	box-shadow:3px 3px 3px #800000;
-	 /*padding: 20px;
-	 height: 150px;*/
-	 }
 
 
 #nav_list ul li a {
@@ -82,6 +40,7 @@ header img {
 
 /* the styles for the main nav menu */
 
+
 #nav_menu ul {
 	list-style: none;
 	position: relative;
@@ -97,13 +56,13 @@ header img {
 	background-color: #808080;
 	color: white;
 	font-weight: bold;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+	padding-top: 1.8em;
+	padding-bottom: 1.4em;
 	display: block; 
-	vertical-align: middle;
+
 	text-align: center;
 	text-decoration: none; 
-	width: 165px;	
+	width:165px;	
 }
 
 #nav_menu ul li a.current {
@@ -114,7 +73,7 @@ header img {
 #nav_menu ul ul { 
 	display: none;
 	position: absolute;
-	top: 100%; 
+	top: 70%; 
 }
 
 #nav_menu ul ul li {
@@ -133,83 +92,56 @@ header img {
 
 
 
-
 /* the styles for the main content */
-main {
-	clear: left;
-}
+
 
 /* the styles for the section */
 section {
-	width: 99%;
-	float: left;
-	padding: 0 20px 20px 20px;
+	width: 100%;
+	padding: 0px;
+
+	
 }
+
+
 section h2 {
-	color: #800000;
-	font-size: 100%;
-	padding-top: .5em;
+	color: #e61b1b;
+	font-size: 90%;
+	padding-top: em;
+	padding-left: 5%;
 	margin: 0;
-}
-section h3 {
-	color: #800000;
-	font-size: 100%;
-	padding-top: .5em;
-	margin: 0;
-}
+	
+} 
+
 section p {
-	padding-bottom: .1em;
+	padding-left: 5%;
+	
 }
-section blockquote {
-	padding: 0 2em;
-	font-style: italic;
+ul {
+	padding-left: 5%;
+} 
+
+action{
+	padding-left: 5%;
 }
-section ul {
-	padding: 0 0 .25em 1.25em;
+form{
+	padding-left: 5%;
 }
-section li {
-	padding-bottom: .35em;
-}
-body p  {
-	font-size: 90 px;
+/*container*/
+table {
+margin-left: 50px;
 
 }
 
-
-/* the styles for the article */
-article {
-	padding: .5em 0;
-}
-article h2 {
-	font-size: 115%;
-	padding: 0 0 .25em 0;
-}
-article img {
-	float: right;
-	margin: .5em 0 1em 1em;
-	border: 1px solid black;
+#email
+{
+	text-decoration: underline;
 }
 
-/* the styles for the aside */
-aside {
-	width: 215px;
-	float: right;
-	padding: 0 0 20px 20px;
+#phone
+{
+	text-decoration: underline;
 }
-aside h2 {
-	color: #800000;
-	font-size: 130%;
-	padding: .5em 0 .25em 0;
-}
-
-aside h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
-}
-aside img {
-	padding-bottom: 1em;
-}
-
 /* the styles for the footer */
 footer {
 	background-color: #931420;
@@ -219,5 +151,12 @@ footer {
 footer p {
 	text-align: center;
 	color: white;
-	padding: 1em 0;
+	padding: 0.9em 0;
 }
+header, footer {
+    padding: 0.1em;
+    color: white;
+    background-color: rgba(214, 194, 105, 0.918);
+    text-align: center;
+}
+
