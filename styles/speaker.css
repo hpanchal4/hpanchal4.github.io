@@ -27,7 +27,7 @@ a:focus, a:hover {
 
 #nav_list ul li a {
     display: block;
-    padding: .5em 0 .5em 1.5em;
+    padding: .4em 0 .5em 1.5em;
     text-decoration: none;
     font-weight: bold;
     color: black; 
@@ -96,6 +96,9 @@ a:focus, a:hover {
 
 #join {
 	background-color: #659DBD;
+}
+.val_error{
+	color:#ff1f1f;
 }
 
 
@@ -209,6 +212,6 @@ input[type=submit]:hover {
     background-color: #659DBD;
     padding: 20px;
 }
-Try it Yourself »
+
 
 
