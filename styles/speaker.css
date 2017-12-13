@@ -177,12 +177,15 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 0.9em 0;
+	
 }
 header, footer {
-    padding: 0.1em;
+	padding: 0.1em;
+	
     color: white;
     background-color: rgba(184, 168, 78, 0.918);
     text-align: center;
+
 }
 
 /* Style inputs with type="text", select elements and textareas */
