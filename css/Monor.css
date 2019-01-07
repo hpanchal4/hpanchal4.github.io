@@ -22,18 +22,24 @@
   .room {
       text-align: center;
   }
-  .ft {
-    width: 100%;
-    
+  footer {
+
+    width: 100%; 
     padding: 65px; 
     margin-bottom: 20px;
-    margin-top: 80px;
+    margin-top: 10px;
     margin-right: 300px;
     text-align: left; 
     background-color: rgb(192, 192, 192);
     color: white; 
     display: block;
+    clear: both;
+
    
 }
- 
+
+.ft {
+    top: 0;
+    width: 100%;
+}
 

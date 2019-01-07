@@ -1,26 +1,33 @@
 
-
-
-
+h2{
+  color: #e61b1b;
+	font-size: 10%;
+	padding-left: 30px;
+  margin: 10px;
+  
+}
 .navbar {
   position: absolute;
-  top: 10;
-  width: 99%;
-  margin: 20 auto;
+  top: 0.01px;
+  width: 100%;
+  margin: 0 auto;
   z-index: 110 !important;
+  padding-bottom: 1px;
   background: white !important;
   opacity: 22;
 display: block;
   
 }
+.mo{
+  margin-block-end: 90px 70px;
+  margin-inline-start: 90px ;
+  padding-block-end: 190px 90px;
+  padding-top: 190px 90px;
 
 
-
-.phone-btn-call {
-  padding: 73px;
-  padding-top:20px; 
-  margin-bottom: 660px;
 }
+
+
 
 .navLink {
   color: #16460C !important;
@@ -60,17 +67,20 @@ display: block;
  
 }
 
+#logo-main {
+  float: center;
+
+}
 /*  new ------------------------*/
 header[role="banner"] #logo-main {
   display: block;
-  margin: 240px auto;
 
 }
 #navbar-primary.navbar-default {
   background: transparent;
   border-bottom: 1px solid #333333;
   display: block;
-
+ 
 }
 #navbar-primary.navbar-default .navbar-nav {
   width: 100%;
@@ -79,15 +89,13 @@ header[role="banner"] #logo-main {
 #navbar-primary.navbar-default .navbar-nav > li {
   display: inline-block;
   float: none;
+  margin-top: 12px;
+
+
 }
 #navbar-primary.navbar-default .navbar-nav > li > a {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.banner {
-  page-break-after: auto;
-  padding-bottom: 50px;
-  padding: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 
@@ -100,4 +108,7 @@ header[role="banner"] #logo-main {
 .phone-btn-call {
   padding-bottom: 500px;
   color: red;
+}
+.ph {
+  float: center;
 }
